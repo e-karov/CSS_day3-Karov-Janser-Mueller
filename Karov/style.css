@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    background-image: linear-gradient(skyblue, darkblue);
+}
+
+nav a {
+    margin: 1rem 3rem;
+    padding: 5px;
+    text-decoration: none;
+    color: antiquewhite;
+}

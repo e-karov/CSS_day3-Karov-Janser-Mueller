@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
+}
+
+nav {
+    display: flex;
+    background-image: linear-gradient(skyblue, darkblue);
+}
+
+nav a {
+    margin: 0 3rem;
+    padding: 1rem;
+    text-decoration: none;
+    color: antiquewhite;
+    transition: all 500ms ease-in;
+    font-size: 1em;
+}
+
+nav a:hover {
+    color:beige;
+    font-size: .96em;
+}
+

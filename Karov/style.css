@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Roboto Slab', serif;
 }
 
 nav {
@@ -10,8 +11,16 @@ nav {
 }
 
 nav a {
-    margin: 1rem 3rem;
-    padding: 5px;
+    margin: 0 3rem;
+    padding: 1rem;
     text-decoration: none;
     color: antiquewhite;
+    transition: all 500ms ease-in;
+    font-size: 1em;
 }
+
+nav a:hover {
+    color:beige;
+    font-size: .96em;
+}
+
